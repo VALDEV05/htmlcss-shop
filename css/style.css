@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+.product{
+    width: 100%;
+    margin: auto;
+}
+.card{
+    width: 360px;
+    max-height: 521px;
+    background-color: beige;
+    float: left;
+    margin: 1%;
+
+}
+.image{
+    max-height: 521px;
+    max-width: 360px;
+}
+.discount{
+    position: relative;
+    bottom: 47px;
+    left: 0;
+    height: 28px;
+}
+.rebate{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    line-height: 28px;
+    vertical-align: middle;
+    padding: 0 .2rem;
+
+}
+.green{
+    background-color: green;
+    left: 51.4px;
+}
+.red{
+    background-color: red;
+}
+
+/* discount misure 
+altezza sconto 28px 
+larghezza sconto rosso 47 
+larghezza sconto verde 95 
+ margin-bottom 16px  */
