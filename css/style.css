@@ -9,16 +9,20 @@
     display: table;
     content: "";
 }
-.product{
-    width: 100%;
+.container{
+    width: 90%;
     margin: auto;
+}
+.product{
+    float: left;
+    width: 33.3%;
 }
 .card{
     width: 360px;
     max-height: 521px;
     background-color: beige;
-    float: left;
-    margin: 1%;
+    margin: auto;
+    margin-bottom: 62px;
 
 }
 .image{
@@ -48,9 +52,32 @@
 .red{
     background-color: red;
 }
+.leggend{
+    position: relative;
+    top: -25px;
+    left: 0;
+}
+.brand{
+    font-size: 15px;
+    position: relative;
+    top: 0;
+    left: 0;
+    line-height: 18px;
+}
+.cost{
+    color: red;
+    display: inline-block;
+}
+.ex-cost{
+    padding-left: 5px;
+    text-decoration: line-through;
 
+}
 /* discount misure 
 altezza sconto 28px 
 larghezza sconto rosso 47 
 larghezza sconto verde 95 
  margin-bottom 16px  */
+
+ /* colore red button EB0037 */
+ /* colore green button 00875A */
