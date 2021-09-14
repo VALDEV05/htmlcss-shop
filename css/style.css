@@ -24,7 +24,7 @@
 .debug .discount{
     height: 28px;
     width: 100%;
-    background-color: rgb(255, 0, 234);
+/*     background-color: rgb(255, 0, 234); */
 }
 .discount{
     position: absolute;
@@ -79,4 +79,26 @@ div .image_product_secondary{
     position: absolute;
     top: 35%;
     right: 30%;
+}
+.price{
+    background-color: #EB0037;
+    float: left;
+    height: 100%;
+    text-align: center;
+    padding: 0 1rem;
+    margin-right: 1rem;
+    line-height: 100%;
+}
+
+.attribute{
+    height: 100%;
+    background-color: #00875A;
+    padding: 0 1rem;
+    float: left;
+    text-align: center;
+}
+.price p,
+.attribute p{
+    color: white;
+    margin-top: 6px;
 }
