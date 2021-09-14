@@ -11,20 +11,25 @@
 }
 .debug .container{
     height: 1400px;
-    background-color: aqua;
 }
 .debug .products{
     height: 1500px;
-    background-color: rgb(42, 73, 73);
 }
 .debug .product{
     height: 600px;
-    background-color: rgb(255, 0, 234);   
 }
 .debug .discount{
     height: 28px;
     width: 100%;
-/*     background-color: rgb(255, 0, 234); */
+}
+.debug .description{
+    height: 60px;
+    width: 100%;
+
+}
+.description{
+    position: absolute;
+    top: 100%;
 }
 .discount{
     position: absolute;
@@ -38,7 +43,7 @@
 }
 .product{
     width: 30%;
-    margin: 20px 20px 80px 20px;
+    margin: 20px 20px 40px 20px;
     float: left;
     position: relative;
 }
@@ -101,4 +106,14 @@ div .image_product_secondary{
 .attribute p{
     color: white;
     margin-top: 6px;
+}
+.description .model{
+    font-weight: bold;
+    font-size: 20px;
+}
+.description .cost .current_cost{
+    color: red;
+}
+.description .cost .ex_cost{
+    text-decoration: line-through;
 }
